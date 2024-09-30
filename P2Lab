@@ -1,0 +1,24 @@
+#Allen Gaines
+#import date time library
+from datetime import datetime
+print(f"The time /date is currently {datetime.now()} \n")
+#P2Lab1
+#Using an imported library, math, and f-string
+
+
+#geting users radius 
+Radius=float(input("What is the radius of the circle? " ))
+print()
+#calculating diameter
+Diameter=2*Radius
+print(f"The diameter of the circle is {Diameter:.1f} \n")
+#importing the math constant so I can get pi to function 
+import math
+#calculating circumfrence
+circumfrence= 2* math.pi*Radius
+print(f"The circumference of the circle is {circumfrence:.2f} \n")
+#calculating area 
+area= math.pi*Radius**2
+print(f"The area of the circle is {area:.3f} \n")
+
+
